@@ -1,0 +1,4 @@
+1) addBack() will add the first element in the array to the back instead requested value
+2)removeFront() does the same thing as removeBack()
+3) BUG FOUND size() return m_size+1 or m_size is set to 1 when built
+4) isEmpty()  always  returns false if bug three is the former and relies on m_size; 
